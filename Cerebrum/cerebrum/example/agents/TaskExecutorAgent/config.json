@@ -1,0 +1,16 @@
+{
+    "name": "task_executor_agent",
+    "description": [
+        "执行任务并生成最终结果"
+    ],
+    "tools": [],
+    "meta": {
+        "author": "yu",
+        "version": "0.0.1",
+        "license": "CC0"
+    },
+    "build": {
+        "entry": "agent.py",
+        "module": "TaskExecutorAgent"
+    }
+}

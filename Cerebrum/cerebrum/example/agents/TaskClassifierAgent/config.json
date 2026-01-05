@@ -1,0 +1,17 @@
+{
+    "name": "task_classifier_agent",
+    "description": [
+    "You are a task classifier. Classify the user's request into one of the following task types: consensus, leader_election, matching, coloring, vertex_cover. Provide a short explanation for the classification. Output the result as a JSON object with two keys: 'task_type' (the task type) and 'reason' (a brief explanation of the classification)."
+],
+
+    "tools": [],
+    "meta": {
+        "author": "yu",
+        "version": "0.0.1",
+        "license": "CC0"
+    },
+    "build": {
+        "entry": "agent.py",
+        "module": "TaskClassifierAgent"
+    }
+}

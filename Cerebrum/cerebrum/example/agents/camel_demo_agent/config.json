@@ -1,0 +1,14 @@
+{
+    "name": "camel_demo_agent",
+    "description": ["A demo for camel run on AIOS."],
+    "tools": [],
+    "meta": {
+        "author": "yu",
+        "version": "0.0.1",
+        "license": "CC0"
+    },
+    "build": {
+        "entry": "agent.py",
+        "module": "CamelAgent"
+    }
+}

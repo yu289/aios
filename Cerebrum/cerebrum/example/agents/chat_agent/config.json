@@ -1,0 +1,16 @@
+{
+  "name": "chat_agent",
+  "description": [
+    "A general chat agent that can talk in Chinese and English."
+  ],
+  "tools": ["wikipedia"],
+  "meta": {
+    "author": "yu",
+    "version": "0.0.1",
+    "license": "CC0"
+  },
+  "build": {
+    "entry": "agent.py",
+    "module": "ChatAgent"
+  }
+}

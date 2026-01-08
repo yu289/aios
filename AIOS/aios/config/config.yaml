@@ -2,9 +2,7 @@
 
 # API Keys Configuration
 api_keys:
-  # openai: "gpustack_a8993304749ecad0_cd28b2707cfe9946f88b37d8da088d09"    # OpenAI API key
   openai: "kJ94sWuDogW49zapnePumpVRQgFcz2O1jb3S7C35ZoHp8HRnVdz1CryyyZftsEmFHFKS4egaoY1Jyvvi"
-  # openai: "sk-XxTzxU89DGu2AGj0G0RSqlxmQu9YBEb5oOpogchsRDwgBQ1Q"
   gemini: ""    # Google Gemini API key
   groq: ""      # Groq API key
   anthropic: "" # Anthropic API key
